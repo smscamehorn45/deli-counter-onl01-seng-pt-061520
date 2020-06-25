@@ -14,7 +14,7 @@ function currentLine(NewLine) {
         line += (i + 1) + ". " + NewLine[i] + ", " =>
       
       line = line.slice(0, line.length-2)
-      )"The line is currently: " + line
+      "The line is currently: " + line
     //
 }
 function nowServing(x) {

@@ -12,10 +12,9 @@ function currentLine(NewLine) {
      end 
       for(var i = 0; i < NewLine.length; i++ {
         line += (i + 1) + ". " + NewLine[i] + ", " =>
-      )
+      
       line = line.slice(0, line.length-2)
       return "The line is currently: " + line
-    )
     //
 }
 function nowServing(x) {
@@ -26,4 +25,4 @@ function nowServing(x) {
     x.splice(0, 1);
     return "Currently serving " + name + ".";
   )
-}
+end

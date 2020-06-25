@@ -25,5 +25,5 @@ function nowServing(x) {
     var name = x[0];
     x.splice(0, 1);
     return "Currently serving " + name + ".";
-  }
+  )
 }

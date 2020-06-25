@@ -11,7 +11,7 @@ function currentLine(NewLine) {
       return "The line is currently empty."
      end 
       for(var i = 0; i < NewLine.length; i++ {
-        line += (i + 1) + ". " + NewLine[i] + ", "
+        line += (i + 1) + ". " + NewLine[i] + ", " =>
       )
       line = line.slice(0, line.length-2)
       return "The line is currently: " + line
